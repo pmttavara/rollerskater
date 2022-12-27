@@ -1,0 +1,9 @@
+.vs
+parent/x64
+parent.exe
+parent.pdb
+vm/x64
+vm.exe
+vm.exp
+vm.lib
+vm.pdb

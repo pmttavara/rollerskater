@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vm", "rollerskater.vcxproj", "{5D263C08-1BE2-44C3-A653-22A168B30AF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parent", "sandbox.vcxproj", "{2FDCCAF7-03D7-4D54-B52C-6F0EF1A1A0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D263C08-1BE2-44C3-A653-22A168B30AF2}.Debug|x64.ActiveCfg = Debug|x64
+		{5D263C08-1BE2-44C3-A653-22A168B30AF2}.Debug|x64.Build.0 = Debug|x64
+		{5D263C08-1BE2-44C3-A653-22A168B30AF2}.Release|x64.ActiveCfg = Release|x64
+		{5D263C08-1BE2-44C3-A653-22A168B30AF2}.Release|x64.Build.0 = Release|x64
+		{2FDCCAF7-03D7-4D54-B52C-6F0EF1A1A0D2}.Debug|x64.ActiveCfg = Debug|x64
+		{2FDCCAF7-03D7-4D54-B52C-6F0EF1A1A0D2}.Debug|x64.Build.0 = Debug|x64
+		{2FDCCAF7-03D7-4D54-B52C-6F0EF1A1A0D2}.Release|x64.ActiveCfg = Release|x64
+		{2FDCCAF7-03D7-4D54-B52C-6F0EF1A1A0D2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17A34740-5D1C-43BC-86D7-ABBA0295B830}
+	EndGlobalSection
+EndGlobal
