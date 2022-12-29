@@ -2,6 +2,12 @@
 #include "common.h"
 #include "vm_defs.hpp"
 
+// @Important: The time between opcode buffers being allocated and
+// the process memory being locked as read-only is an opportunity for
+// an attacker in the VM to inject their own bytecode. During this time
+// all threads should be locked and afterwards thread opcode buffers
+// should be periodically validated against an expected cryptographic hash.
+
 #define assert(e) ((e) || (__debugbreak(), 0))
 
 int main() {

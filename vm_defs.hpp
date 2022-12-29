@@ -2,6 +2,9 @@
 
 #include "common.h"
 
+// RDTSC instruction with full precision -- safe due to subprocess isolation
+// 
+
 // 32 bit version of most instructions for ARM32 support
 
 // leverage powerful ops (CISC)
